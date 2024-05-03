@@ -1,0 +1,126 @@
+*{
+    font-family: 'Montserrat', sans-serif;
+        padding: 0;
+    margin: 0;
+    box-sizing: 0;
+    outline: 0;
+    border: none;
+
+}
+
+html{
+min-height: 100vh;
+    position: relative;
+}
+main{
+    margin-bottom: 250px;
+}
+
+#logo{
+    position: absolute;
+    top: 10px;
+    left: 9.5%;
+}
+
+#logo img{
+   width: 50px;
+}
+
+#navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #161616;
+    padding: 20px;
+    text-transform: uppercase;
+    list-style: none;
+}
+#navbar li{
+    margin: 0 10px;
+    padding: 5px;
+}
+
+#navbar .nav-link{
+color: white;
+text-decoration: none;
+transition: .5s;
+font-size: 14px;
+
+}
+#navbar .nav-link:hover{
+color: #999;
+}
+#title-contaiener{
+    min-width: 500px;
+    text-align: center;
+    margin-top: 30px;
+    
+
+}
+#title-contaiener h1{
+    font-size: 50px;
+}
+
+#title-contaiener p{
+margin-top: 10px;
+text-transform: uppercase;
+color: #999;
+}
+#post-container{
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.post-box:first-child{
+    min-width: 100%;
+}
+.post-box{
+    flex: 1 1 0;
+    margin-bottom: 20px;
+}
+.post-box:nth-child(3){
+    margin: 0 1%;
+}
+.post-box img{
+    width: 100%;
+}
+.post-box .post-title{
+    font-size: 24px;
+    margin: 10px 0;
+}
+.post-box .post-title a{
+    color: #000;
+    transition: .5s;
+    text-decoration: none;
+
+}
+
+.post-box .post-title a:hover{
+    color: #999;
+}
+.post-box .post-description {
+    color: #666;
+}
+.tags-container{
+    margin-top: 10px;
+    text-decoration: none;
+}
+
+.tags-container a{
+font-size: 14px;
+color: #333;
+display: inline-block;
+margin-right: 5px;
+}
+footer{
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    background-color: #000000;
+    color: aliceblue;
+    padding: 50px 0px ;
+
+}
